@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat Bot</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#fffff]">
+
+    <div class="w-screen h-screen flex justify-center items-center  container">
+        <div class="w-[350px] h-[500px] bg-[#f4f4f4] border-2 border-b-stone-200 rounded-md relative chatbot-container">
+            <div
+                class="w-full h-10 text-[#f4f4f4] bg-[#2a9d8f] rounded-tl-md rounded-tr-md flex justify-end items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 mr-3">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 mr-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+
+            </div>
+
+            <div class="w-full h-[410px] bg-stone-100 overflow-y-scroll">
+                <div class="w-full grid grid-cols-4 flex profile-side mt-2 mb-3">
+                    <div class="w-full h-auto flex justify-center items-end">
+                        <div class="w-10 h-10 rounded-full bg-stone-300">
+
+                        </div>
+                    </div>
+                    <div class=" col-span-3">
+                        <div class="w-full h-auto ">
+                            <div class="w-52 h-full bg-stone-300 rounded-lg rounded-bl-none p-2">
+                                <span>Hello I'm Jav. How can I help you?</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w-full grid grid-cols-4 flex profile-side mt-2 mb-3">
+                    <div class="w-full h-auto flex justify-center items-end">
+                        <div class="w-10 h-10 rounded-full bg-stone-300">
+
+                        </div>
+                    </div>
+                    <div class=" col-span-3">
+                        <div class="w-full h-auto ">
+                            <div class="w-52 h-full bg-stone-300 rounded-lg rounded-bl-none p-2">
+                                <span>I'm here to answer your questions about Programming language.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="w-full grid grid-cols-4 flex profile-side mt-2 mb-3">
+                    <div class="w-full h-auto flex justify-center items-end">
+                        <div class="w-10 h-10 rounded-full bg-stone-300">
+
+                        </div>
+                    </div>
+                    <div class=" col-span-3">
+                        <div class="w-full h-auto ">
+                            <div class="w-52 h-full bg-stone-300 rounded-lg rounded-bl-none p-2">
+                                <span>I'm here to answer your questions about Programming language.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="w-full h-12 bg-red-100 absolute bottom-0 z-10">
+            <form action="" class="w-full h-12 bg-[#fefefe] flex justify-between items-center">
+                <input type="text" class="w-[80%] h-full  rounded-bl-md p-4" placeholder=" Enter your question">
+
+                <button type="submit" class="mr-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-7 h-7 text-[#2a9d8f]">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg>
+
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
